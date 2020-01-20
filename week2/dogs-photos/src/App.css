@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.image{
+  list-style: none;
+  width: 50%;
+  height: 500px;
+  padding: 30px;
+  margin:auto;
+  border-radius: 20px;
+  background-color: darkcyan;
+}
+.list-item{
+  list-style: none;
+}
+
+.btn1 {
+  margin: 20px;
+  height: 50px;
+ background-color: #008CBA;
+
+}
+
+.btn2 {
+  margin: 20px;
+  height: 50px;
+  background-color: #f44336;
+
+}
