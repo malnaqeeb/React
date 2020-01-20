@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+th{
+  text-align: left;
+  border: 1px solid black;
+  width: 150px;
+}
+td{
+  text-align: left;
+  border: 1px solid black;
+  width: 300px;
+} 
+table{
+  margin-left: 350px;
+  margin-top: 50px;
+}
+
