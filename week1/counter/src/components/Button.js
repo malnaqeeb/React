@@ -1,10 +1,10 @@
 import React from "react";
 
-const Button = ({ addProps, resetProps }) => {
+const Button = ({ add, reset }) => {
   return (
     <div>
-      <button onClick={addProps} className='btn'> Add 1!</button>
-      <button onClick={resetProps} className='btn'> Reset </button>
+      <button onClick={add} className='btn'> Add 1!</button>
+      <button onClick={reset} className='btn'> Reset </button>
     </div>
   );
 };

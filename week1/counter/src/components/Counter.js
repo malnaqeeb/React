@@ -17,10 +17,10 @@ const Counter = () => {
 
   return (
     <div>
-      <Button addProps={addOne} resetProps={reset} />
-      <Count feedback={feedback} countProps={count} />
+      <Button add={addOne} reset={reset}/>
+      <Count feedback={feedback} count={count}/>
     </div>
-  );
+  ); 
 };
 
 export default Counter;

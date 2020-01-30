@@ -1,9 +1,9 @@
 import React from "react";
 
-const Count = ({ countProps, feedback }) => {
+const Count = ({ count, feedback }) => {
   return (
     <div>
-      Counter : {countProps} || {feedback}
+      Counter : {count} || {feedback}
     </div>
   );
 };
