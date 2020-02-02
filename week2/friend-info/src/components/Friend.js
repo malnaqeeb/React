@@ -24,7 +24,7 @@ const Friend = () => {
   }
   return (
     <div>
-      <Button btnProps={getFriend} />
+      <Button getFriend={getFriend} />
       {status === "loading" && <h2>Loading...</h2>}
       {status === "Error" && <h2>{errorMessage}</h2>}
       {status === "success" && <FriendProfile friendProps={friend} />}

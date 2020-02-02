@@ -38,8 +38,8 @@ const DogGallery = () => {
       {isLoading === "error" && <h2>{errorMessage}</h2>}
       {isLoading === "success" && (
         <ul>
-          {dogPhotos.map(ele => (
-            <DogPhoto dog={ele} key={ele.id} />
+          {dogPhotos.map(el => (
+            <DogPhoto dog={el} key={el.id} />
           ))}
         </ul>
       )}

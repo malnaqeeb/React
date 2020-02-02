@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Button = ({btnProps}) => {
+const Button = ({getFriend}) => {
     return (
         <div>
-            <button onClick={btnProps}>Get Friend</button>
+            <button onClick={getFriend}>Get Friend</button>
         </div>
     );
 };
